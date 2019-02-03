@@ -11,7 +11,7 @@ bot.on('guildMemberAdd',member =>{
   footer: { 
     text: 'Katılmayı unutma!'
     },
-  description: `**Merhaba! Nasılsın dostum? Sana kısaca bir sunucu tanıtacağım;\n:small_blue_diamond: Para kazanabilirsin! 10 Davet 15 Lira, daha fazlası...\n:small_blue_diamond: Nitro bulabilirsin! 5 Davet 3 Aylık, daha fazlası\n:small_blue_diamond: Diğer ödüller! Neden gelmiyorsun?**[TIKLA VE KATIL](https://discord.gg/h6PMy9a)**`
+  description: `**Merhaba! Nasılsın dostum? Sana kısaca bir sunucu tanıtacağım;\n:small_blue_diamond: Para kazanabilirsin! 10 Davet 15 Lira, daha fazlası...\n:small_blue_diamond: Nitro bulabilirsin! 5 Davet 3 Aylık, daha fazlası\n:small_blue_diamond: Diğer ödüller! Neden gelmiyorsun?**[TIKLA VE KATIL](https://discord.gg/h6PMy9a)`
 }});
 
     //member.guild.defaultChannel.sendmessage(`Welcome "${member.user.username}"! Be sure to set your platform by typing "!role"`);
