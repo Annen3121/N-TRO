@@ -7,7 +7,7 @@ var fs = require('fs');
 
 bot.on('guildMemberAdd',member =>{
     member.send({embed: {
-  color: RANDOM,
+  color: 0x36393e,
   footer: { 
     text: 'Katılmayı unutma!'
     },
