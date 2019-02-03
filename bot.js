@@ -7,15 +7,11 @@ var fs = require('fs');
 
 bot.on('guildMemberAdd',member =>{
     member.send({embed: {
-  color: 3447003,
+  color: RANDOM,
   footer: { 
-    text: 'Lütfen aramıza katılmayı unutma.'
+    text: 'Katılmayı unutma!'
     },
-  image:
-    {
-    url: 'https://cdn.discordapp.com/attachments/463275621137514496/463284034160689152/REEESSS.png'
-    },
-  description: `**Merhaba! Aramıza katılmak istermisin. Eğerki istersen verdiğim linke gel! Heee, yetkili olayım istiyosanda 'V |' Ekleyeblirsin ismine! Unutma, kapımız her daim açık. Bekliyoruz!  [TIKLA VE KATIL](https://discord.gg/xUw6bQ2)**`
+  description: `**Merhaba! Nasılsın dostum? Sana kısaca bir sunucu tanıtacağım;\n:small_blue_diamond: Para kazanabilirsin! 10 Davet 15 Lira, daha fazlası...\n:small_blue_diamond: Nitro bulabilirsin! 5 Davet 3 Aylık, daha fazlası\n:small_blue_diamond: Diğer ödüller! Neden gelmiyorsun?**[TIKLA VE KATIL](https://discord.gg/h6PMy9a)**`
 }});
 
     //member.guild.defaultChannel.sendmessage(`Welcome "${member.user.username}"! Be sure to set your platform by typing "!role"`);
